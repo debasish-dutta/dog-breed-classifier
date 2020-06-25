@@ -1,5 +1,5 @@
 # dog-breed-classifier
-This project is doen using tensorflow 2.0 and data set if from (this)[https://www.kaggle.com/c/dog-breed-identification/overview] kaggle competition.
+This project is doen using tensorflow 2.0 and data set if from [this](https://www.kaggle.com/c/dog-breed-identification/overview) kaggle competition.
 
 1. Problem
 Identifying the breed of a dog by the given image.
