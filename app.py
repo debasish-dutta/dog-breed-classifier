@@ -7,7 +7,7 @@ import re
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 
-#from model import get_pred
+from model import get_pred
 
 app = Flask(__name__)
 
