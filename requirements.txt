@@ -1,4 +1,4 @@
-git+https://github.com/IntelPython/mkl_fft.git#egg=mkl_fft
+
 absl-py==0.9.0
 astor==0.8.0
 backcall==0.2.0
@@ -74,3 +74,4 @@ Werkzeug==0.16.1
 win-inet-pton==1.1.0
 wincertstore==0.2
 wrapt==1.12.1
+git+https://github.com/IntelPython/mkl_fft.git#egg=mkl_fft
