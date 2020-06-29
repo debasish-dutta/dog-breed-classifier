@@ -61,7 +61,7 @@ rsa==4.0
 #scipy @ file:///C:/ci/scipy_1592930618155/work
 six==1.15.0
 tensorboard==2.2.1
-tensorboard-plugin-wit==1.6.0
+tensorboard-plugin-wit
 tensorflow==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-hub==0.8.0
