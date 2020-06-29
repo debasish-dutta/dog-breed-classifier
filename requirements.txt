@@ -1,3 +1,4 @@
+git+https://github.com/IntelPython/mkl_fft.git#egg=mkl_fft
 absl-py==0.9.0
 astor==0.8.0
 backcall==0.2.0
