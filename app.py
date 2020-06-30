@@ -7,7 +7,7 @@ import re
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 
-from model import get_pred
+from model import get_pred, clear_uploads
 
 app = Flask(__name__)
 
@@ -28,6 +28,7 @@ def upload():
         f.save(file_path)
 
         result = get_pred(file_path)
+        clear_uploads(file_path)
         return result
     return None
 

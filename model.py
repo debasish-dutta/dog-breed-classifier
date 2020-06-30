@@ -83,3 +83,7 @@ def get_pred(file_path):
     print([get_pred_label(custom_preds[i])
            for i in range(len(custom_preds))][0])
     return [get_pred_label(custom_preds[i]) for i in range(len(custom_preds))][0]
+
+
+def clear_uploads(file_path):
+    os.remove(file_path)
