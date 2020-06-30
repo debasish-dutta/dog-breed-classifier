@@ -1,7 +1,7 @@
 Flask==1.1.2
 h5py==2.10.0
-ipython 
-ipython-genutils==0.2.0
+#ipython 
+#ipython-genutils==0.2.0
 #itsdangerous==1.1.0
 #jedi @ file:///C:/ci/jedi_1592841982010/work
 gunicorn
