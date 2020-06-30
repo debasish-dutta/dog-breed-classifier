@@ -7,3 +7,5 @@ Identifying the breed of a dog by the given image.
   The data is from Kaggle's dog breed identification competition.
 3. Evaluation
   The evaluation file with prediction probabilities for each dog breed of each test image.
+4. Deployment
+  The model is then taken and developed into a webapp using Flask and ultimately deployed in heroku
