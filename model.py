@@ -80,5 +80,6 @@ def get_pred(file_path):
     custom_image_paths = [file_path]
     custom_data = create_data_batches(custom_image_paths)
     custom_preds = loaded_full_model.predict(custom_data)
-    print[get_pred_label(custom_preds[i]) for i in range(len(custom_preds))][0]
+    print([get_pred_label(custom_preds[i])
+           for i in range(len(custom_preds))][0])
     return [get_pred_label(custom_preds[i]) for i in range(len(custom_preds))][0]
