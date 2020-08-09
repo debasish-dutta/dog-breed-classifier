@@ -12,14 +12,15 @@
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
 </head>
 
-<body>
+<body style="background-image: url('{{url_for('static', filename='images/dogs_mul.jpeg') }}');">
+<div id="bg" >
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
                 <a class="navbar-brand" style="text-align: center;" href="/">Dog Breed Classifier</a>
                 <a href="https://github.com/ddmasterdon/" target="_blank" style="text-align: right;" class="icoGithub" title="Github"><i class="fa fa-github"></i></a>
         </div>
     </nav>
-    <div class="container align-self-center">
+    <div class="container cen">
         <div class="align-self-center" id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
     </div>
 </body>

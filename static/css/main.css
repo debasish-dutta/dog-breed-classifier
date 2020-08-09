@@ -1,3 +1,7 @@
+.cen {
+    place-items: center;
+}
+
 .img-preview {
     width: 256px;
     height: 256px;
@@ -58,4 +62,8 @@ input[type="file"] {
     100% {
         transform: rotate(360deg);
     }
+}
+
+#result {
+    color: #3498db;
 }
