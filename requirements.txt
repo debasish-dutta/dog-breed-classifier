@@ -1,4 +1,4 @@
-Flask==1.1.2
+Flask==2.0
 h5py==2.10.0
 #ipython 
 #ipython-genutils==0.2.0
@@ -23,6 +23,6 @@ requests
 scipy==1.4.1
 #tensorboard==2.2.1
 #tensorboard-plugin-wit
-tensorflow==2.7.2
+tensorflow==2.3.1
 tensorflow-estimator==2.7.0rc0
 tensorflow-hub==0.8.0
