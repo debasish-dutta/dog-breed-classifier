@@ -23,6 +23,6 @@ requests
 scipy==1.4.1
 #tensorboard==2.2.1
 #tensorboard-plugin-wit
-tensorflow==2.1.0
+tensorflow==2.9.3
 tensorflow-estimator==2.7.0rc0
 tensorflow-hub==0.8.0
